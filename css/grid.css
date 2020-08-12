@@ -1,0 +1,23 @@
+.container-fluid {
+    display: flex;
+    padding: 0px 16px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+[class^="col"] {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+[class$="-6"] {
+    width: calc(100% / 2);
+}
